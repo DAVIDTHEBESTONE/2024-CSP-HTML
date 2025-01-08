@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .title{
-    color: red;
+    color: rgb(0, 0, 0);
     font-family: 'Trebuchet MS', sans-serif; 
   }
   
@@ -85,12 +85,12 @@ h1, h2, h3, h4, h5, h6{
   }
 
 #morecontent {
-    background-color: yellow;
+    background-color: rgb(160, 153, 118);
   }
 
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 800px) {
     *{
-        background-color: lavender
+        background-color: rgb(160, 153, 118)
       }
       }
   
