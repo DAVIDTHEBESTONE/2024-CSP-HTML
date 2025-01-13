@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Version 4.0
+        Name:
+        Date Completed:
+    -->
+
+<head>
+
+    <title>Gallery</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="SHS WebDev Version 4.0 - Gallery">
+
+    <!-- CSS -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Custom -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/gallery.css">
+
+    <!-- JavaScript -->
+    <!-- These are needed to get the responsive menu to work -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Custom styles for this template -->
+    <style type="text/css">
+        footer {
+            font-size: 12px;
+            text-align: center;
+        }
+        
+        #rainbow {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <!---------------------------------- Begin the nav-bar ------------->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a href="http://shakonet.isd720.com" class="navbar-brand">WebDev</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav me-auto">
+                    <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Edit These Items in your NavBar ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="display.html" class="nav-link">Display</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="portfolio.html" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="mailto:sample@gmail.com?Subject=Hello" class="nav-link disabled" tabindex="-1">Contact</a>
+                    </li>
+                    <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ Edit These Items in your NavBar ↑↑↑↑↑↑↑↑↑↑↑↑↑↑-->
+                </ul>
+                <form class="d-flex">
+                    <button class="btn btn-primary" type="button">Login</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!---------------------------------- End the nav-bar ------------------------------------->
+
+    <main class="container-fluid mt-3">
+
+        <h1 class="text-left my-3 title" tabindex="0">Check out my favorite images</h1>
+        <!-- Edit this line for the title of your page -->
+
+        <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Put your content below this line ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
+
+        <div id="gallery">
+            <p>Hover over the images to get the answer</p>
+            <div class="container">
+                <div class="flipper">
+                    <div class="front">
+                        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSBvux5HmN8tVeSr4gJ-v5rJow_p6JOZT7SaQVTC9xesFRxcF2uQ26vo144tVQPIkLU-Jc9IVN4SMorglbyQsG3kA" alt="ATX_Motherboard">
+                        <p class="caption">Guinea Pig Facts</p>
+                    </div>
+                    <div class="back">
+                        <a href="https://www.humanerescuealliance.org/blog/posts/everything-you-need-to-know-about-guinea-pigs" target="_blank">
+                            <h2 class="mh-100">More Guinea Pig Facts</h2>
+                        </a>
+                        <p class="description">The oldest known guinea pig lived to 14 years and 10 months: 'Snowball' lived way beyond a guinea pig's normal life expectancy of 7 to 10 years. The largest guinea pigs can be up to 50 cm long: These giants known as “Cuys” originate from South America, where they are bred and fattened up for food</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="flipper">
+                    <div class="front">
+                        <img src="https://media-be.chewy.com/wp-content/uploads/2024/09/25122709/hamster-1024x615.jpg" alt="RAM Stick">
+                        <p class="caption">Hamster Facts</p>
+                    </div>
+                    <div class="back">
+                        <a href="https://www.petsmart.com/small-pet/live-small-pets/hamsters-guinea-pigs-and-more" target="_blank">
+                            <h2>Buy Hamster</h2>
+                        </a>
+                        <p class="description">There Are About 20 Species of Hamsters.
+                            They Are Nocturnal Creatures.
+                            They Are Promiscuous.
+                            Hamsters Are Banned in Hawaii.
+                            Their Teeth Never Stop Growing.
+                            They Hoard Food.
+                            They Are Prone to Bacteria and Viruses.
+                            Some Hibernate</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="flipper">
+                    <div class="front">
+                        <img src="https://i.natgeofe.com/n/4cebbf38-5df4-4ed0-864a-4ebeb64d33a4/NationalGeographic_1468962_16x9.jpg" alt="NVIDIA GPU">
+                        <p class="caption">Cat information</p>
+                    </div>
+                    <div class="back">
+                        <a href="https://thecafemeow.com/" target="_blank">
+                            <h2 class="">Cat Cafe</h2>
+                        </a>
+                        <p class="description">Cats are believed to be the only mammals who don't taste sweetness. Cats are nearsighted, but their peripheral vision and night vision are much better than that of humans. Cats are supposed to have 18 toes (five toes on each front paw; four toes on each back paw). Cats can jump up to six times their length.</p>
+                    </div>
+                </div>
+            </div>
+
+        <div class="container">
+            <div class="flipper">
+                <div class="front">
+                    <img src="https://plus.unsplash.com/premium_photo-1663127305918-a789d0f6bf21?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGN1dGUlMjBkb2d8ZW58MHx8MHx8fDA%3D" alt="NVIDIA GPU">
+                    <p class="caption">Dog Information</p>
+                </div>
+                <div class="back">
+                    <a href="https://www.daisyscafempls.com/petcafeexperience" target="_blank">
+                        <h2 class="">Dogs Cafe</h2>
+                    </a>
+                    <p class="description">Dog facts!
+                        Dogs are the most popular pet on the planet!
+                        They evolved from a now-extinct species of wolf.
+                        They can learn over 100 words and gestures!
+                        Dog noses are at least 40x more sensitive than ours!
+                        Many work as assistance dogs, helping humans!
+                        They only sweat from their paws, and have to cool down by panting.
+                        </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ Make sure all your content is above this line ↑↑↑↑↑↑↑↑↑-->
+    </main>
+
+    <!---------------------------------- Begin the footer ------------->
+    <footer>
+        <span class="title d-block">Example of a Footer Title</span>
+        <div class="container py-1" id="footerTable">
+            <ul class="list-unstyled d-flex justify-content-center">
+                <li class="mx-3">
+                    <i class="fa-brands fa-facebook fa-3x" aria-hidden="true"></i>
+                </li>
+                <li class="mx-3">
+                    <i class="fa-brands fa-x-twitter fa-3x" aria-hidden="true"></i>
+                </li>
+                <li class="mx-3">
+                    <i class="fa-brands fa-instagram fa-3x" aria-hidden="true"></i>
+                </li>
+                <li class="mx-3">
+                    <i class="fa-brands fa-github fa-3x" aria-hidden="true"></i>
+                </li>
+                <li class="mx-3">
+                    <i class="fa-brands fa-tiktok fa-3x" aria-hidden="true"></i>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!---------------------------------- End the footer ------------->
+</body>
+
+</html>
